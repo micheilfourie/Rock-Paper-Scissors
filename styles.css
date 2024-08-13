@@ -26,16 +26,24 @@ h1 {
 .btn {
   cursor: pointer;
   width: 100px;
+  height: 40px;
   margin: 10px;
   color: var(--very-dark-blue);
   background-color: var(--golden-yellow);
   background-image: linear-gradient(#fecc4c, #ffac33);
   border-color: var(--golden-yellow);
-  border-width: 3px;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.btn-container{
+    margin-top: 10px;
 }
 
 .btn:hover {
   background-image: linear-gradient(#ffcc4c, #f89808);
+  scale: 1.1;
+  transition: 80ms;
 }
 
 .rules-container {
